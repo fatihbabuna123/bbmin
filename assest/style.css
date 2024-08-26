@@ -1,0 +1,84 @@
+:root{
+    --renk1:#040D12;
+    --renk2:#183D3D;
+    --renk3:#5C8374;
+    --renk4:#93B1A6;
+
+}
+.svg{
+  color: wheat;
+}
+.navbar{
+    background-color: var(--renk1);
+    z-index: 999;
+}
+.bg-color{
+  background-color: var(--renk1);
+}
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus{
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.nav-item{
+    z-index: 9999;
+   
+}
+.nav-link , .togle{
+    color: white !important;
+   
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.carousel img{
+    height: 100vh;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--renk2);
+   
+
+}
+.card i{
+    font-size: 5em;
+    text-align: center;
+    margin: 20px;
+}
+#contact{
+    background-color: var(--renk1);
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: var(--renk3);
+    z-index: 999;
+  }
+  .btn-close{
+    font-size: 1.6rem !important;
+  }
+  .navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus ,.btn-close{
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .navbar-toggler-icon{
+    font-size: 1.7rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .offcanvas{
+      width: 75% !important;
+    }
+  }
+
